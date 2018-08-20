@@ -4,7 +4,7 @@ header('Content-type: application/json');
 $response = array();
 $uploaddir = './upload/';
 $milliseconds = round(microtime(true) * 1000);
-$uploadfile = $uploaddir . basename("{$milliseconds}_{$_FILES['file']['name']}"); 
+$uploadfile = $uploaddir . basename("{$milliseconds}_{$_FILES['file']['name']}");
 
 // $response['files'] = $_FILES;
 // $response['server'] = $_SERVER;
